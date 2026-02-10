@@ -1,6 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
+:root {
   --color-dark-bg: #0a0e27;
   --color-dark-card: #111827;
   --color-dark-lighter: #1f2937;
@@ -163,8 +165,8 @@
 
   .container {
     max-width: 1280px;
-    margin-left: 3000px;
-    margin-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 3rem;
     padding-right: 3rem;
     width: 100%;
